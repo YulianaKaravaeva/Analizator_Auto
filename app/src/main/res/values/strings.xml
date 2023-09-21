@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Анализатор Авто</string>
+
+    // Общее
+    <string name="done">Готово</string>
+    <string name="finish">ОК</string>
+
+    // MainActivity
+    <string name="start">Начать</string>
+    <string name="main_info">Данное приложение позволяет определить визуальные повреждения Вашего автомобиля и выделить соответствующие им области</string>
+
+    // InputActivity
+    <string name="input_info">Добавьте изображение, которое Вы хотите проанализировать на наличие повреждений</string>
+    <string name="bt_input_image">Добавить изображение</string>
+
+    // Result Activity
+    <string name="info_damage">Ваш автомобиль имеет следующие внешние повреждения:</string>
+    <string name="save">Сохранить</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/input_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="500dp"
+        android:gravity="center"
+        android:text="@string/input_info"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/input_info"
+        app:layout_constraintStart_toStartOf="@+id/input_info"
+        app:layout_constraintTop_toBottomOf="@+id/input_info"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <Button
+        android:id="@+id/bt_input_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="@string/bt_input_image"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/user_image"
+        app:layout_constraintStart_toStartOf="@+id/user_image"
+        app:layout_constraintTop_toBottomOf="@+id/user_image" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bt_input_image"
+        app:layout_constraintStart_toStartOf="@+id/bt_input_image"
+        app:layout_constraintTop_toBottomOf="@+id/bt_input_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>
